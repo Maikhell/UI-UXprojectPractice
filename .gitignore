@@ -1,0 +1,5 @@
+# Ignore Hack-specific files or directories
+.hhconfig
+
+# Ignore any log files
+*.log
