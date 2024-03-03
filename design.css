@@ -55,8 +55,6 @@ body {
     margin-top: 10px;
 }
 
-.main-container {}
-
 .description {
     color: #320000;
     font-size: large;
@@ -161,7 +159,3 @@ body {
     max-height: 100%;
     width: 60px;
 }
-
-.description-title {}
-
-#carouselExampleControlsNoTouching {}
