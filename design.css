@@ -1,13 +1,80 @@
+html,
 body {
-    background-color: #fffca9;
-    margin: auto;
+    width: 100%;
+    height: 100%;
+    margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    background-color: #fffca9;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    margin-top: 15px;
+    padding: 10px;
+
+    width: 100%;
+}
+
+.title {
+    color: #FFFF;
+    background-color: #320000;
+    width: 35%;
+    max-width: 100%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.sub-title {
+    height: 42px;
+    max-width: 100%;
+    width: 183px;
+    margin: 3px 0px 3px 0px;
+}
+
+.center-title {
+    display: flex;
+    justify-content: center;
+    background-color: #320000;
+}
+
+#title-container {
+    background-color: #FFFF;
+    padding: 0px 0px 10px 0px;
+    margin-bottom: 10px;
+    border: hidden;
+    border-radius: 0 5px 5px 0;
+    height: 50%;
+    max-height: 100%;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.main-container {}
+
+.description {
+    color: #320000;
+    font-size: large;
+    font-weight: 600;
+    background-color: #FFFF;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: hidden;
+    border-radius: 10px;
 }
 
 .first-page {
     background-color: #fffca9;
     margin-bottom: 10px;
-
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .second-half {
@@ -21,7 +88,11 @@ body {
 
 .navbar-brand {
     color: #fffca9;
-    font-size: 2em;
+
+}
+
+.navbar-logo {
+    height: 50px;
 }
 
 .navbar-brand:hover {
@@ -35,6 +106,13 @@ body {
 .btn:hover {
     color: #320000;
     background-color: #fffcbd;
+}
+
+.account-btn {
+    border: hidden;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
 }
 
 .form-control:focus {
@@ -52,18 +130,37 @@ body {
     height: 20px;
 }
 
-.container {
-    display: flex;
-    margin-top: 60px;
-    margin-right: 0;
-    padding-right: 0;
-    margin-left: 0;
+.account-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.country-name {
     width: 100%;
+    height: 100px;
+    max-height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+    border: solid 5px;
+    border-radius: 10px;
+    border-color: #320000;
 }
 
 
+.icon-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 
-.carousel-container {}
+.arrow-right {
+    height: 50px;
+    max-height: 100%;
+    width: 60px;
+}
 
 .description-title {}
 
