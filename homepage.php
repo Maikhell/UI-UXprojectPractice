@@ -11,25 +11,38 @@
 
 <body>
     <nav class="navbar">
-        <div class="container-fluid d-flex justify-content-center justify-content-lg-start">
-            <a class="navbar-brand" href="#">Destinations</a>
-            <form class="d-flex justify-content-lg-center" id="form-search" role="search">
+        <div class="container-fluid justify-content-between align-items-center">
+            <a class="navbar-brand" href="#"><img src="./images/svgs/navbar-logo.svg" class="navbar-logo" alt=""></a>
+            <form class="d-flex" id="form-search" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn" type="submit"> <img src="./icons/icons8-search-50.png" class="search-icon" alt=""></button>
             </form>
+            <button class="account-btn" type="submit"> <img src="./icons/icons8-account-96.png" class="account-icon" alt=""></button>
         </div>
     </nav>
+    <div class="main-title">
+        <div class="main-container">
+            <img src="./images/svgs/japan.svg" class="country-name" alt="">
+        </div>
+    </div>
     <section class="first-page">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <h2 class="title">Tokyo</h2>
+                <div class="col-md-5" id="title-container">
+                    <div class="center-title">
+                        <img src="./images/svgs/tokyo.svg" class="sub-title" alt="">
+                    </div>
                     <div class="description">
                         <p>This is the short description for the destination,
                             "Crowded streets adorned with neon lights weave through Tokyo's diverse neighborhoods, where traditional temples stand in harmony with modern architecture, offering visitors a glimpse into both the past and future of this dynamic city."</p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-1">
+                    <div class="icon-arrow">
+                        <img src="./images/svgs/arrowright.svg" class="arrow-right" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6" id="carousel-height">
                     <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -54,14 +67,11 @@
                 </div>
             </div>
         </div>
-    </section>
 
+    </section>
     <section class="second-half">
-        <h1> HEllo</h1>
     </section>
 </body>
-
-
 <script src="./bootstrap-5.3.1-dist/js/bootstrap.js"></script>
 
 </html>
