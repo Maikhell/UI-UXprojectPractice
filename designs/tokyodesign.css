@@ -242,6 +242,9 @@ body {
 .card-title {
     text-align: center;
     color: #320000;
+    font-family: Travelast;
+    src: url(/fonts/Travelast.otf);
+    font-weight: 600;
 }
 
 .main-sec-title {
@@ -267,6 +270,8 @@ body {
 
 .card-description {
     padding: 7px;
+    font-size: large;
+    font-weight: 500;
 }
 
 .flip-card-inner {
@@ -291,10 +296,6 @@ body {
     backface-visibility: hidden;
 }
 
-.flip-card-front {
-    background-color: #bbb;
-    color: black;
-}
 
 .flip-card-back {
     background-color: #ffffff;
@@ -309,8 +310,17 @@ body {
 
 .footer {
     max-width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+
 }
 
-.footer-title {
-    margin-bottom: 0px;
+.footer-title {}
+
+.footer-icon {
+    width: 25px;
+    height: 25px;
 }
+
+.footer-credit {}
